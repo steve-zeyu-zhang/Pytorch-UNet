@@ -35,6 +35,7 @@ optional arguments:
   --mask_suffix STR,-m STR
                         Define the suffix of mask file name
 ```
+The img and masks are loaded in data/img and data/masks
 
 By default, the `scale` is 0.5, so if you wish to obtain better results (but use more memory , reduce it when out of mem), set it to 1.
 
